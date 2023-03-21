@@ -1,0 +1,238 @@
+body {
+    margin: 0px;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: azure;
+}
+
+.logo {
+    height: 60px;
+    width: 100px;
+}
+
+.nav-items > ul{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* padding: 20px; */
+    list-style: none;
+    /* margin: 10px; */
+    /* margin-left: 100px; */
+    /* padding-left: 50px; */
+}
+
+.nav-items > ul > li > a {
+    margin: 10px;
+    /* display: flex; */
+    /* align-items: right; */
+    
+    text-decoration: none;
+}
+
+.banner-section {
+    background: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png") no-repeat center center/cover;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.banner-section> h1 {
+    font-size: 45px;
+}
+
+.banner-section > p {
+    font-size: 30px;
+}
+
+/* .buttons {
+    margin: 5px;
+} */
+
+.btn {
+    background-color: #dfb538;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    border: 2px #ffc107 solid ;
+    color: #ffc107;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.wcu-cards {
+    display: grid;
+    margin: 10px;
+    /* padding: 10px; */
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wcu-card{
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding: 10px;
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* column-gap: 1em; */
+}
+
+/* Explore Menu Section */
+.explore-menu {
+    background-color: #f9fbfe;
+    display:flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    margin: 5px;
+}
+
+/* .menu-card {
+    display: flex;
+    grid-template-rows: repeat(4, 1fr);
+} */
+
+.menu-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+.menu-card {
+    box-shadow: 1rem rgba(0, 0, 0, 0.6);
+    margin: 15px;
+}
+
+.menu-card-img {
+    height: 220px;
+    border-radius: 15px;
+}
+
+
+
+.delicious {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 15px;
+    margin: 10px;
+}
+
+.delicious-card {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.dp-section {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 15px;
+    margin: 10px;
+}
+
+.dp-section-img {
+    width: 100%;
+}
+
+.dp-card {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    padding: 15px;
+}
+
+.payment-cards {
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    flex-direction: row;
+    margin: 15px;
+}
+
+.payment-cards-img {
+    width: 7%;
+    margin: 10px;
+}
+
+.insta-logo {
+    width: 40px;
+}
+
+@media (max-width:760px) {
+    .banner-section {
+        background: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png") ;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    
+    .banner-section> h1 {
+        font-size: 25px;
+    }
+    
+    .banner-section > p {
+        font-size: 12px;
+    }
+    
+    /* .buttons {
+        margin: 5px;
+    } */
+    
+    .btn {
+        background-color: #dfb538;
+        border: 0;
+        color: #fff;
+        border-radius: 5px;
+        height: 30px;
+        width: 100px;
+        margin-right: 10px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
